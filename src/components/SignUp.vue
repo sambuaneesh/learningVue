@@ -29,10 +29,11 @@ export default {
         email: this.email,
         password: this.password,
       });
-      //   console.log(result);
       if (result.status == 201) {
         alert("Signed Up Successfully");
+        // Storing our signed in details in the browser's local storage data
         localStorage.setItem("user-info", JSON.stringify(result.data));
+        this.$router.push({ name: "HomePage" });
       }
     },
   },
