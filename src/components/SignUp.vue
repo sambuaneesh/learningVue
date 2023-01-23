@@ -17,6 +17,7 @@
 import axios from "axios";
 export default {
   name: "SignUp",
+  //   Data of our page and what are its default values
   data() {
     return {
       name: "",
