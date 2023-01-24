@@ -1,25 +1,19 @@
 <template>
   <HeaderComponent />
-  <h1>Hello {{ name }}, Welcome to Home Page!!</h1>
+  <h1>This is Update Restaurant Page</h1>
 </template>
 
 <script>
 import HeaderComponent from "./HeaderComponent.vue";
 export default {
-  name: "HomePage",
+  name: "UpdateR",
   components: {
     HeaderComponent,
-  },
-  data() {
-    return {
-      name: "",
-    };
   },
   // mounted is a life-cycle method, which always checks while the program is running
   mounted() {
     let user = localStorage.getItem("user-info");
     if (!user) this.$router.push({ name: "SignUp" });
-    this.name = JSON.parse(user).name;
   },
 };
 </script>

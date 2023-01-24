@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     async signUp() {
-      let result = await axios.post("http://localhost:3000/users", {
+      let result = await axios.post(`${process.env.VUE_APP_SERVER_IP}/users`, {
         name: this.name,
         email: this.email,
         password: this.password,
