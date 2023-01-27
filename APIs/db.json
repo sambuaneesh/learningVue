@@ -1,46 +1,48 @@
 {
   "users": [
     {
-      "name": "test",
-      "email": "test@test",
-      "password": "test",
-      "id": 1
-    },
-    {
-      "name": "1",
-      "email": "1",
-      "password": "1",
-      "id": 2
-    },
-    {
-      "name": "test",
-      "email": "1",
-      "password": "2",
-      "id": 3
-    },
-    {
-      "name": "Aneesh",
-      "email": "Aneesh",
-      "password": "aneesh",
-      "id": 4
-    },
-    {
       "name": "",
       "email": "",
       "password": "",
+      "id": 9
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Rest 1",
+      "contact": 123,
+      "address": "Addr 1"
+    },
+    {
+      "id": 2,
+      "name": "Rest 2",
+      "contact": 123123,
+      "address": "Addr 2"
+    },
+    {
+      "id": 3,
+      "name": "Rest 3",
+      "contact": 123123123,
+      "address": "Addr 3"
+    },
+    {
+      "name": "1",
+      "address": "1",
+      "contact": "1",
+      "id": 4
+    },
+    {
+      "name": "sample",
+      "address": "sample addr",
+      "contact": "sample contact",
       "id": 5
     },
     {
-      "name": "Shissj",
-      "email": "Ajiwjw",
-      "password": "shwisjsi",
+      "name": "2",
+      "address": "2",
+      "contact": "2",
       "id": 6
-    },
-    {
-      "name": "dwml",
-      "email": "mo",
-      "password": "w",
-      "id": 7
     }
   ]
 }

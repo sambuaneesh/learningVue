@@ -9,7 +9,7 @@
     "start": "json-server --watch APIs/db.json --host 0.0.0.0"
   },
   "dependencies": {
-    "axios": "^1.2.3",
+    "axios": "^1.2.5",
     "core-js": "^3.8.3",
     "dotenv": "^16.0.3",
     "env-cmd": "^10.1.0",
