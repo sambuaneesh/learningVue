@@ -54,6 +54,10 @@ body {
   border-radius: 0.5rem;
 }
 
+.heading {
+  margin-bottom: 3%;
+}
+
 html {
   background-color: #120c24;
 }

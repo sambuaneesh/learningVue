@@ -1,6 +1,8 @@
 <template>
   <HeaderComponent />
-  <h1 style="color: grey">You can add your Restaurants here!</h1>
+  <h1 class="heading" style="color: grey">
+    You can add your Restaurants here!
+  </h1>
   <form class="addR">
     <input
       type="text"
@@ -44,7 +46,7 @@ export default {
   },
   methods: {
     async addRestaurant() {
-      console.log(this.restaurant);
+      // console.log(this.restaurant);
       const result = await axios.post(
         `${process.env.VUE_APP_SERVER_IP}/restaurant`,
         {

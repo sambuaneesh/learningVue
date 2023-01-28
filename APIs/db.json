@@ -5,44 +5,26 @@
       "email": "",
       "password": "",
       "id": 9
+    },
+    {
+      "name": "Aneesh",
+      "email": "sambuaneesh@gmail.com",
+      "password": "sambuaneesh@gmail.com",
+      "id": 10
     }
   ],
   "restaurant": [
     {
-      "id": 1,
-      "name": "Rest 1",
-      "contact": 123,
-      "address": "Addr 1"
-    },
-    {
-      "id": 2,
-      "name": "Rest 2",
-      "contact": 123123,
-      "address": "Addr 2"
-    },
-    {
-      "id": 3,
-      "name": "Rest 3",
-      "contact": 123123123,
-      "address": "Addr 3"
-    },
-    {
       "name": "1",
       "address": "1",
       "contact": "1",
-      "id": 4
-    },
-    {
-      "name": "sample",
-      "address": "sample addr",
-      "contact": "sample contact",
-      "id": 5
+      "id": 1
     },
     {
       "name": "2",
       "address": "2",
       "contact": "2",
-      "id": 6
+      "id": 2
     }
   ]
 }
